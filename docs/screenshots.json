@@ -1,0 +1,6 @@
+[
+  {"file":"01-display-modes.png","caption":"The menu bar menu with the Built-in Retina Display submenu open, listing HiDPI modes grouped by resolution and sorted by refresh rate, with a checkmark on the current mode.","alt":"ResolutionHopper menu showing display modes for the built-in display"},
+  {"file":"02-profiles.png","caption":"The Profiles submenu applies a saved layout in one click, or saves the current one as a new profile.","alt":"Profiles submenu with two saved profiles"},
+  {"file":"03-settings.png","caption":"Settings for profiles, mode filters, keeping changes after restart, launch at login, and the Support button.","alt":"ResolutionHopper Settings window"},
+  {"file":"04-save-profile.png","caption":"Saving the current display layout as a named profile.","alt":"Save Current Layout dialog with a profile name field"}
+]

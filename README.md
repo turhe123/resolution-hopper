@@ -1,5 +1,7 @@
 # ResolutionHopper
 
+**🌐 Website:** [turhe123.github.io/resolution-hopper](https://turhe123.github.io/resolution-hopper/)
+
 Switch any display to a saved resolution and refresh rate from the menu bar, or let a profile do it for you.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,21 @@ ResolutionHopper is a free, open-source, 100% native, backend-free alternative t
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-display-modes.png" alt="ResolutionHopper menu showing display modes for the built-in display" width="720"></p>
+
+<p align="center"><em>The menu bar menu with the Built-in Retina Display submenu open, listing HiDPI modes grouped by resolution and sorted by refresh rate, with a checkmark on the current mode.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-profiles.png" alt="Profiles submenu with two saved profiles" width="560"></p>
+
+<p align="center"><em>The Profiles submenu applies a saved layout in one click, or saves the current one as a new profile.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="ResolutionHopper Settings window" width="560"></p>
+
+<p align="center"><em>Settings for profiles, mode filters, keeping changes after restart, launch at login, and the Support button.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-save-profile.png" alt="Save Current Layout dialog with a profile name field" width="560"></p>
+
+<p align="center"><em>Saving the current display layout as a named profile.</em></p>
 
 ## Install
 

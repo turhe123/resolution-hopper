@@ -1,0 +1,24 @@
+{
+  "seo_title": "Display resolution switcher for macOS",
+  "seo_description": "Free, open-source menu bar app for macOS. Switch any display's resolution and refresh rate, save layouts as profiles, and apply them with a hotkey.",
+  "hero_title_line1": "Every display mode,",
+  "hero_title_accent": "one click away.",
+  "hero_sub": "ResolutionHopper lives in your menu bar and lists every mode for every connected display. Save your layout as a profile, then apply it from the menu or with a global hotkey.",
+  "features_title": "Display control, without the digging.",
+  "features_sub": "A small, native menu bar utility for people with external monitors, projectors and capture cards.",
+  "features": [
+    {"icon": "display", "title": "Every mode, grouped clearly", "desc": "Each display gets a submenu of modes grouped by resolution and sorted by refresh rate. HiDPI and stretched modes are labelled, and the current mode is checked."},
+    {"icon": "sliders", "title": "Profiles for whole layouts", "desc": "Save the current mode of all displays as a named profile and apply it in one click. Entries for displays that are not connected are skipped and reported in the menu."},
+    {"icon": "keyboard", "title": "Global hotkeys per profile", "desc": "Record a shortcut for any profile in Settings. Hotkeys use Carbon RegisterEventHotKey, so no permission is needed."},
+    {"icon": "clock", "title": "15-second Keep or Revert", "desc": "After each switch you get a countdown to keep the change or revert. It runs on a main run loop timer, so it still fires if the screen goes black."},
+    {"icon": "bolt", "title": "Automatic rules", "desc": "Apply a profile automatically when a chosen external display connects. Displays are matched by vendor, model and serial number, not display ID."},
+    {"icon": "lock", "title": "Local, with no network calls", "desc": "No analytics and no third-party dependencies, only Apple frameworks. Profiles are stored as JSON on your Mac."}
+  ],
+  "permissions_step": "No special permissions are required; if you turn on Launch at login, macOS may list the app under System Settings > General > Login Items.",
+  "faq": [
+    {"q": "Is ResolutionHopper really free and open source?", "a": "Yes. It is released under the MIT license and the full source is on GitHub. If you find it useful, there is an optional Support button that opens a Ko-fi page."},
+    {"q": "What permissions does it need?", "a": "None for normal use. It does not request Accessibility or Screen Recording, and hotkeys work without a permission prompt. Only if you enable Launch at login may it appear under Login Items in System Settings."},
+    {"q": "Where is my data stored?", "a": "Profiles are saved as JSON at ~/Library/Application Support/ResolutionHopper/profiles.json. The app makes no network calls, other than opening the Ko-fi page in your browser when you click Support."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."}
+  ]
+}
